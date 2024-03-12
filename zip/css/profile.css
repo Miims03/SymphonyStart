@@ -1,0 +1,84 @@
+.structure_all_info {
+  display: flex;
+  justify-content: left; 
+  gap: 40px;
+  /* border: 1px solid blue; */
+  border-radius: 5px;
+}
+
+.profile {
+  background-color: rgb(42, 73, 96);
+  color: white;
+  border-radius: 5px;
+}
+
+.profile img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+background-color: white;
+border: 1px solid grey;
+margin-top: 10px;
+
+}
+
+.profile input {
+  background-color: rgb(25, 44, 59);
+  color:white;
+  width: 200px;
+  padding: 5px;
+  padding-left: 2px;
+  border: none;
+  font-size: 17px;
+
+}
+
+#button_update{
+  background-color: rgb(78, 212, 121);
+  color: BLACK;
+  padding: 10px;
+  border: none;
+  margin-top: 25px;
+  font-size: large;
+  width: 100%;
+  }
+  
+  #button_update:hover{
+  background-color:  rgb(227, 128, 15);
+  color: WHITE;
+  }
+
+/* ------------------------------------------ */
+
+.blogs {
+/* display: flex;
+justify-content: space-between;
+align-items:center; */
+/* border: 1px solid red; */
+background-color: rgb(245, 243, 243);
+margin-right: 100px;
+
+}
+
+#blog{
+  display: flex;
+  justify-content: left; 
+  border: 1px solid green;
+  border-radius: 5px;
+  gap: 20px;
+}
+
+#blog img{
+  border: 1px solid rgb(234, 235, 234);
+  border-radius: 5px;
+  gap: 10px;
+  padding:5px;
+}
+
+#title, #content {
+  background-color: white;
+}
+
+#content {
+  font-size: 17px;
+}

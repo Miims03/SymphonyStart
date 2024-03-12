@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(34, 68, 85);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sec1{
+    border: double 8px rgb(34, 68, 85);
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+h1{
+    color: rgb(34, 68, 85);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-style: italic;
+    user-select: none;
+    
+}
+.lesInput{
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+#inputT{
+    border: solid 1px rgb(34, 68, 85);;
+    color: rgb(34, 68, 85);
+    width: 83%;
+    height: 68px;
+    font-size: 25px;
+    text-align: start;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+} 
+#btnToDo{
+    height: 70px;
+    width: 15%;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    background-color: rgb(34, 68, 85);
+    border: double white 5px;
+    user-select: none;
+}
+#btnToDo:hover{
+    background-color: white;
+    color: rgb(34, 68, 85);
+    border: solid 1px rgb(34, 68, 85);
+    transition: 0.4s;
+    cursor: pointer;
+}
+#btnToDoDell{
+    height: 70px;
+    width: 15%;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    background-color: rgb(34, 68, 85);
+    border: double white 5px;
+    animation: anime 0.5s alternate;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+}
+#btnToDoDell:hover {
+    background-color: white;
+    color: rgb(34, 68, 85);
+    border: solid 1px rgb(34, 68, 85);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.paraStyle #btnToDoDell:hover  .paraStyle .paraStyle_test{
+    background-color: rgb(255, 97, 97);
+}
+/* Add from Js : */
+
+.paraStyle{
+    /* background-color: rgba(34, 68, 85, 0.489); */
+    /* color: white; */
+    /* padding: 10px; */
+    margin-top: 15px;
+    /* font-size: 25px; */
+    /* text-align: start; */
+    /* text-transform: capitalize; */
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+    /* border-radius: 10px; */
+    /* border-style: none; */
+    /* list-style: none; */
+    /* word-break: break-all; */
+    /* cursor: pointer; */
+    /* animation: anime 0.5s alternate; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.paraStyle_test{
+    background-color: rgb(34, 68, 85);
+    border: solid 1px rgb(34, 68, 85);
+    color: rgb(255, 255, 255);
+    width: 83%;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    word-break: break-all;
+    animation: anime 0.5s alternate;
+    cursor: pointer;
+    min-height: 68px;
+    user-select: none;
+}
+#paraStyle_style:last-child{
+    margin-bottom: 0;
+}
+@keyframes anime {
+    from{
+        transform: translateY(50px);
+    }
+}
+@keyframes exemple-animation {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.paraClick{
+    text-decoration: line-through;
+    /* background-color: rgb(255, 97, 97); */
+    background-color: rgb(77, 255, 142);
+    color: rgb(34, 68, 85);
+    /* border: none; */
+}
+
+/* Add from php : */
+
+.succes{
+    color: rgb(77, 255, 142);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.error{
+    color: rgb(255, 97, 97);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
